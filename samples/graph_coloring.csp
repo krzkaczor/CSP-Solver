@@ -1,0 +1,9 @@
+A B C D
+'r' 'g' 'b'
+'r' 'g' 'b'
+'r' 'g' 'b'
+'r' 'g' 'b'
+A B !=
+A C !=
+B C !=
+D A !=

@@ -1,0 +1,18 @@
+D0 H0 H1 H2 H3 H4 V0 V1 
+'bc' 'ec' 'dc' 
+'dapac' 'ciiac' 'pobam' 'abcdf' 'testt' 'chcem'
+'pabc' 
+'ham' 'cam' 
+'dapac' 'ciiac' 'pobam' 'abcdf' 'testt' 'chcem'
+'ham' 'cam' 
+'dapac' 'ciiac' 'pobam' 'abcdf' 'testt' 'chcem'
+'dapac' 'ciiac' 'pobam' 'abcdf' 'testt' 'chcem'
+H0 0 [] V0 0 [] ==
+V0 0 [] D0 0 [] ==
+H0 2 [] V1 0 [] ==
+V0 2 [] H1 0 [] ==
+V1 2 [] H1 2 [] ==
+V0 4 [] H2 0 [] ==
+V1 4 [] H2 2 [] ==
+D0 1 [] H3 0 [] ==
+

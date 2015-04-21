@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.1)
+project(CSP)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wall")
+
+set(SOURCE_FILES main.cpp)
+add_executable(CSP ${SOURCE_FILES} grammar/CspProblemGrammar.h csp_problem/CspProblem.cpp csp_problem/CspProblem.h utils/utils.h grammar/CspProblemDefinition.h csp_problem/Variable.cpp csp_problem/Variable.h grammar/OperatorToken.h stack_machine/Expression.h stack_machine/StackMachine.cpp stack_machine/StackMachine.h stack_machine/VariableReference.cpp stack_machine/VariableReference.h stack_machine/ExpressionFactory.h stack_machine/Operators/PlusOperator.cpp stack_machine/Operators/PlusOperator.h stack_machine/IntLiteral.cpp stack_machine/IntLiteral.h stack_machine/Operators/EqualityOperator.cpp stack_machine/Operators/EqualityOperator.h csp_problem/Environment.h solvers/BacktrackingSolver.cpp solvers/BacktrackingSolver.h stack_machine/Operators/InequalityOperator.cpp stack_machine/Operators/InequalityOperator.h stack_machine/Operators/MinusOperator.cpp stack_machine/Operators/MinusOperator.h stack_machine/Operators/AbsValueOperator.cpp stack_machine/Operators/AbsValueOperator.h solvers/Solver.h solvers/ForwardCheckingSolver.cpp solvers/ForwardCheckingSolver.h stack_machine/Operators/GroupInequalityOperator.cpp stack_machine/Operators/GroupInequalityOperator.h grammar/IdentificationToken.h defs.h stack_machine/StringLiteral.cpp stack_machine/StringLiteral.h stack_machine/Operators/SubscriptOperator.cpp stack_machine/Operators/SubscriptOperator.h)
